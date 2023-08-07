@@ -1,0 +1,75 @@
+.card{
+    flex-direction: column;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    width: 350px;
+}
+.card_title{
+    text-align: center;
+}
+.card_container{
+    border: 1px solid;
+    border-radius: 10px;
+}
+.card_list{
+    background-color: #F0F0F0;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+}
+.card_list a {
+    color: #3173DC;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.card_list a:focus{
+    background-color: #3173DC;
+    color: white;
+}
+.card_list_item {
+    color: inherit;
+}
+.card_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.card_footer_title{
+    margin: 5px;
+}
+.card_text{
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+}
+.card_buttom{
+    border: none;
+    background-color: #3173DC;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.card_buttom::after{
+    content: "";
+    background: url("./png-transparent-right-arrow-up-feather-icon.png")no-repeat;
+    background-size: 100%;
+    width: 15px;
+    aspect-ratio: 1;
+    display: block;
+    margin-left: 10px;
+}
